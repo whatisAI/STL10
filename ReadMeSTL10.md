@@ -1,4 +1,4 @@
-STL10 is a 10 class image dataset. 
+STL10 is a 10 class image dataset. https://cs.stanford.edu/~acoates/stl10/ 
 Each image is RGB, with 96x96 pixels.
 
 The first attempt to train a CNN from scratch, attained a classification accuracy of **. More hyperparameter tuning can still be done, though. 
