@@ -1,5 +1,7 @@
-#New blog
+# New blog
 
 ## test
 
-$$y=Ax$$
+$$ y=Ax $$
+
+
