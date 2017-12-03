@@ -3,11 +3,9 @@
 
 ## test
 
-$$ y=Ax $$
-This is an
-{% raw %}
-\(Y = A X\)
-{% endraw %}
-
 And yet another example $$\int_0^T g(s)ds$$.
 
+while if I want another thing is
+$$
+Y = Ax + b
+$$
