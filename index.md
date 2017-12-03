@@ -4,8 +4,9 @@
 ## test
 
 $$ y=Ax $$
-
-$Y = A X$
-
+This is an
+{% raw %}
+\(Y = A X\)
+{% endraw %}
 { DHHHD  }
 
