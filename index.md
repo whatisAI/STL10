@@ -8,5 +8,6 @@ This is an
 {% raw %}
 \(Y = A X\)
 {% endraw %}
-{ DHHHD  }
+
+And yet another example $$\int_0^T g(s)ds$$.
 
