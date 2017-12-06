@@ -13,4 +13,7 @@ pip3 install matplotlib
 pip3 install tensorflow
 pip3 install keras
 
+
+git clone https://github.com/whatisAI/STL10
+
 python download_data.py
