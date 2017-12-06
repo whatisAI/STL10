@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get install git
+#sudo apt-get update
+#sudo apt-get upgrade -y
+#sudo apt-get install git
 sudo apt-get install python3
 update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1
 sudo apt-get install python3-pip
