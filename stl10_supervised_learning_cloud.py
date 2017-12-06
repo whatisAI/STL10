@@ -125,7 +125,7 @@ if ready_final_train==1:
     gmodel=getModel()
     mod2=gmodel.fit(train_images, train_labels,
           batch_size=40,
-          epochs=5,
+          epochs=3,
           verbose=1,
           validation_data=(test_images, test_labels),
           callbacks=callbacks)
@@ -138,8 +138,8 @@ numpy_loss_history = np.array(mod2.history['loss'])
 numpy_val_loss_history = np.array(mod2.history['val_loss'])
 numpy_acc_history = np.array(mod2.history['acc'])
 numpy_val_acc_history = np.array(mod2.history['val_acc'])
-numpy.savetxt("loss_history.txt", numpy_loss_history, delimiter=",")
-numpy.savetxt("val_loss_history.txt", numpy_val_loss_history, delimiter=",")
-numpy.savetxt("acc_history.txt", numpy_acc_history, delimiter=",")
-numpy.savetxt("val_acc_history.txt", numpy_val_acc_history, delimiter=",")
+np.savetxt("loss_history.csv", numpy_loss_history, delimiter=",")
+np.savetxt("val_loss_history.csv", numpy_val_loss_history, delimiter=",")
+np.savetxt("acc_history.csv", numpy_acc_history, delimiter=",")
+np.savetxt("val_acc_history.csv", numpy_val_acc_history, delimiter=",")
 
